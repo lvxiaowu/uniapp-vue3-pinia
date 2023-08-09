@@ -13,7 +13,7 @@ export const useStudentStore = defineStore("student", {
     },
   },
   // persist: true,
-  persist: {
-    storage: sessionStorage,
-  },
+  // persist: {
+  //   storage: sessionStorage,
+  // },
 });

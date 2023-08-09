@@ -13,9 +13,9 @@ export const useCounterStore = defineStore("counter", {
     },
   },
   // persist: true,
-  persist: {
-    key: "my_counter",
-    storage: sessionStorage,
-    paths: ["count"],
-  },
+  // persist: {
+  //   key: "my_counter",
+  //   storage: sessionStorage,
+  //   paths: ["count"],
+  // },
 });
